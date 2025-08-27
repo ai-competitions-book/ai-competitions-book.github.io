@@ -10,7 +10,7 @@ To make changes to the website, follow the steps below:
 
 ### 1. Clone this repo
 ```
-git clone https://github.com/FAIR-Universe/FAIR-Universe.github.io.git
+git clone https://github.com/ai-competitions-book/ai-competitions-book.github.io.git
 ```
 
 ### 2. Switch to a new branch
