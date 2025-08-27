@@ -1,9 +1,11 @@
-# FAIR-Universe.github.io
+# ai-competitions-book.github.io
 
-FAIR UNiverse project website
+The website of the book "AI Competitions and Benchmarks - The Science Behind the Contests"
+
+https://ai-competitions-book.github.io
 
 
-# Intrsuctions for making changes to the website
+# Instructions for making changes to the website
 To make changes to the website, follow the steps below:
 
 ### 1. Clone this repo
