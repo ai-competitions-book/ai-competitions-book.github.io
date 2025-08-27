@@ -33,6 +33,16 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.badge a {
+  color: #fff;              /* make link white */
+  text-decoration: none;    /* remove underline by default */
+}
+
+.badge a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/

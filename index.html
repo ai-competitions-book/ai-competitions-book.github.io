@@ -102,162 +102,304 @@
     </section>
     <!-- End Overview Section -->
 
+
     <!-- ======= Outline Section ======= -->
     <section id="outline" class="about">
       <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Outline</h2>
-        </div>
+        <div class="section-title"><h2>Outline</h2></div>
 
-        <h4>INTRODUCTION</h4>
+        <!-- INTRODUCTION -->
+        <h4 class="mt-4">INTRODUCTION</h4>
 
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 1: The life cycle of challenges and benchmarks</h5>
-              <span class="badge bg-orange text-light"><a href="http://arxiv.org/abs/2312.05296" target="_BLANK">Access preprint</a></span>
+        <div class="accordion mb-4" id="outlineIntroAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c0">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c0" aria-expanded="false" aria-controls="c0">
+                <b>Foreword</b>
+              </button>
+            </h2>
+            <div id="c0" class="accordion-collapse collapse" aria-labelledby="hd-c0" data-bs-parent="#outlineIntroAccordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p>
+                  In the rapidly evolving landscape of artificial intelligence (AI), the significance of competitions and benchmarks cannot be overstated. This book provides a comprehensive exploration of the role, design, and impact of AI challenges and benchmarks across academic, industrial, and educational domains. From historical perspectives and design principles to hands-on tutorials, the book offers an invaluable analysis of the organization and execution of AI competitions.
+                <br><br>
+                  This book compiles insights from experienced challenge organizers, providing guidelines for the effective design of data-driven scientific competitions. The authors represent various institutions from academia, industry, and non-profit.
+                <br><br>
+                  The book offers critical insights for researchers, engineers, and organizers to develop high impact competitions, through an exploration of dataset development, evaluation metrics, competition platforms, incentives, execution, and practical aspects. By addressing both theoretical and real-world considerations, this book serves as an essential guide for anyone looking to understand, participate in, or organize AI challenges and benchmarks.
+                <br><br>
+                  Over the last 15 years, challenges in machine learning, data science, and artificial intelligence have proven to be effective and cost-efficient methods for rapidly bringing research solutions into industry. They have also emerged as a means to direct academic research, advance the state-of-the-art, and explore entirely new domains. Additionally, these challenges, with their engaging and playful nature, naturally attract students, making them an excellent educational resource. Finally, challenges act as a catalyst for community engagement by offering a structured and stimulating environment for individuals to collectively work towards a common goal.
+                <br><br>
+                  This book addresses the gap in the literature on the theoretical foundations and optimization of challenge protocols, which has persisted despite the remarkable successes and progress achieved in challenge organization. It assembles leading experts in challenge organization to provide insights and directions for future research. It also provides a deeper understanding of challenge design, and introduces new methods and application domains for designing and implementing high-impact challenges that advance the frontiers of innovation.
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c1">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c1" aria-expanded="false" aria-controls="c1">
+                <b>Chapter 1</b>: The life cycle of challenges and benchmarks
+              </button>
+            </h2>
+            <div id="c1" class="accordion-collapse collapse" aria-labelledby="hd-c1" data-bs-parent="#outlineIntroAccordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                How data science challenges engage the research community to turn large, complex datasets into reliable benchmarks and practical solutions for science and society.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="http://arxiv.org/abs/2312.05296" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="http://arxiv.org/abs/2312.05296" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <h4>PART I - FUNDAMENTALS</h4>
+        <!-- PART I - FUNDAMENTALS -->
+        <h4 class="mt-4">PART I - FUNDAMENTALS</h4>
+        <div class="accordion mb-4" id="outlinePart1Accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c2">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                <b>Chapter 2</b>: Challenge design roadmap
+              </button>
+            </h2>
+            <div id="c2" class="accordion-collapse collapse" aria-labelledby="hd-c2" data-bs-parent="#outlinePart1Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Guidelines for designing challenges as structured projects, from planning and rules to execution and post-analysis, aimed at solving real problems and advancing science.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://hal.science/hal-04333280" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://hal.science/hal-04333280" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 2: Challenge design roadmap</h5>
-              <span class="badge bg-orange text-light"><a href="https://hal.science/hal-04333280" target="_BLANK">Access preprint</a></span>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c3" aria-expanded="false" aria-controls="c3">
+                <b>Chapter 3</b>: Dataset development
+              </button>
+            </h2>
+            <div id="c3" class="accordion-collapse collapse" aria-labelledby="hd-c3" data-bs-parent="#outlinePart1Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  A framework for building reliable datasets, covering requirements, design, implementation, evaluation, distribution, and maintenance to avoid risks and ensure practical use.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://arxiv.org/abs/2404.09703" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://arxiv.org/abs/2404.09703" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c4">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c4" aria-expanded="false" aria-controls="c4">
+                <b>Chapter 4</b>: How to judge a competition: Fairly judging a competition or assessing benchmark results
+              </button>
+            </h2>
+            <div id="c4" class="accordion-collapse collapse" aria-labelledby="hd-c4" data-bs-parent="#outlinePart1Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Methods to reduce uncertainty in competition judging through metrics, test data design, error bars, phases, and score aggregation.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://hal.science/hal-05169899" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://hal.science/hal-05169899" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c5">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c5" aria-expanded="false" aria-controls="c5">
+                <b>Chapter 5</b>: Towards impactful challenges: post-challenge paper, benchmarks and other dissemination actions
+              </button>
+            </h2>
+            <div id="c5" class="accordion-collapse collapse" aria-labelledby="hd-c5" data-bs-parent="#outlinePart1Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Post-challenge activities and templates for turning results into papers and benchmarks that ensure lasting impact.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://arxiv.org/abs/2312.06036" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://arxiv.org/abs/2312.06036" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 3: Dataset development</h5>
-              <span class="badge bg-orange text-light"><a href="https://arxiv.org/abs/2404.09703" target="_BLANK">Access preprint</a></span>
+        <!-- PART II - REVIEWS -->
+        <h4 class="mt-4">PART II - REVIEWS</h4>
+        <div class="accordion mb-4" id="outlinePart2Accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c6">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c6" aria-expanded="false" aria-controls="c6">
+                <b>Chapter 6</b>: Academic competitions
+              </button>
+            </h2>
+            <div id="c6" class="accordion-collapse collapse" aria-labelledby="hd-c6" data-bs-parent="#outlinePart2Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Survey of academic competitions, their goals, major achievements, and impact on advancing research across domains.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="http://arxiv.org/abs/2312.00268" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="http://arxiv.org/abs/2312.00268" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c7">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c7" aria-expanded="false" aria-controls="c7">
+                <b>Chapter 7</b>: Industry/hiring competitions and benchmarks
+              </button>
+            </h2>
+            <div id="c7" class="accordion-collapse collapse" aria-labelledby="hd-c7" data-bs-parent="#outlinePart2Accordion">
+              <div class="accordion-body">
+                <p class="mb-0">
+                  Survey of competitions in industry. Use real-world problems to drive innovation, benchmark solutions, and identify talent for research and product development.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c8">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c8" aria-expanded="false" aria-controls="c8">
+                <b>Chapter 8</b>: Competitions and challenges for education and continuous learning
+              </button>
+            </h2>
+            <div id="c8" class="accordion-collapse collapse" aria-labelledby="hd-c8" data-bs-parent="#outlinePart2Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Competitions as a hands-on learning tool, motivating students and professionals to gain skills, explore real problems, and stay up to date.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://hal.science/hal-05169871" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://hal.science/hal-05169871" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c9">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c9" aria-expanded="false" aria-controls="c9">
+                <b>Chapter 9</b>: Benchmarks
+              </button>
+            </h2>
+            <div id="c9" class="accordion-collapse collapse" aria-labelledby="hd-c9" data-bs-parent="#outlinePart2Accordion">
+              <div class="accordion-body">
+                <p class="mb-0">
+                  An overview of AI benchmarks, from their history and applications to the challenges of reproducibility and the need for robust infrastructure.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 4: How to judge a competition: Fairly judging a competition or assessing benchmark results</h5>
-              <span class="badge bg-orange text-light"><a href="https://hal.science/hal-05169899" target="_BLANK">Access preprint</a></span>
+        <!-- PART III - PRACTICAL ISSUES AND OPEN PROBLEMS -->
+        <h4 class="mt-4">PART III - PRACTICAL ISSUES AND OPEN PROBLEMS</h4>
+        <div class="accordion" id="outlinePart3Accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c10">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c10" aria-expanded="false" aria-controls="c10">
+                <b>Chapter 10</b>: Competition platforms
+              </button>
+            </h2>
+            <div id="c10" class="accordion-collapse collapse" aria-labelledby="hd-c10" data-bs-parent="#outlinePart3Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Review of major AI competition platforms, their features and models, with guidance on selecting the right service or hosting independently.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://arxiv.org/abs/2312.05185" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://arxiv.org/abs/2312.05185" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c11">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c11" aria-expanded="false" aria-controls="c11">
+                <b>Chapter 11</b>: Hands-on tutorial on how to create your own challenge or benchmark
+              </button>
+            </h2>
+            <div id="c11" class="accordion-collapse collapse" aria-labelledby="hd-c11" data-bs-parent="#outlinePart3Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Step-by-step tutorial for creating your own online competition or benchmark, from setup to launch.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://inria.hal.science/hal-04415747" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://inria.hal.science/hal-04415747" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c12">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c12" aria-expanded="false" aria-controls="c12">
+                <b>Chapter 12</b>: Special designs and competition protocols
+              </button>
+            </h2>
+            <div id="c12" class="accordion-collapse collapse" aria-labelledby="hd-c12" data-bs-parent="#outlinePart3Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Designing competitions for advanced ML areas such as AutoML, time series, reinforcement learning, adversarial learning, and confidential data.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://inria.hal.science/hal-04416565" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://inria.hal.science/hal-04416565" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="hd-c13">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#c13" aria-expanded="false" aria-controls="c13">
+                <b>Chapter 13</b>: Practical issues: Incentives, community engagement and costs
+              </button>
+            </h2>
+            <div id="c13" class="accordion-collapse collapse" aria-labelledby="hd-c13" data-bs-parent="#outlinePart3Accordion">
+              <div class="accordion-body d-flex justify-content-between align-items-start">
+                <p class="mb-0 me-3">
+                  Practical guidance on funding, incentives, publicity, and logistics for successfully organizing competitions and benchmarks.
+                </p>
+                <div class="d-flex gap-2">
+                  <a class="badge bg-orange text-light text-decoration-none" href="https://hal.science/hal-04342074" target="_blank" rel="noopener">Preprint</a>
+                  <a class="badge bg-primary text-light text-decoration-none" href="https://hal.science/hal-04342074" target="_blank" rel="noopener">PDF</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 5: Towards impactful challenges : post-challenge paper, benchmarks and other dissemination actions</h5>
-              <span class="badge bg-orange text-light"><a href="https://arxiv.org/abs/2312.06036" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <h4>PART II - REVIEWS</h4>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 6: Academic competitions</h5>
-              <span class="badge bg-orange text-light"><a href="http://arxiv.org/abs/2312.00268" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 7: Industry/hiring competitions and benchmarks</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 8: Competitions and challenges in education</h5>
-              <span class="badge bg-orange text-light"><a href="https://hal.science/hal-05169871" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 9: Benchmarks</h5>
-            </div>
-          </div>
-        </div>
-
-        <h4>PART III - PRACTICAL ISSUES AND OPEN PROBLEMS</h4>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 10: Competition platforms</h5>
-              <span class="badge bg-orange text-light"><a href="https://arxiv.org/abs/2312.05185" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 11: Hand-on tutorial on how to create your own challenge or benchmark</h5>
-              <span class="badge bg-orange text-light"><a href="https://inria.hal.science/hal-04415747" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 12: Special designs: reinforcement learning, adversarial learning and more</h5>
-              <span class="badge bg-orange text-light"><a href="https://inria.hal.science/hal-04416565" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-1"></div>-
-          <div class="col-lg-8">
-            <!-- News item -->
-            <div class="resume-item">
-              <h5>Chapter 13: Practical issues: Proposals, grant money, sponsors, prizes, dissemination, publicity</h5>
-              <span class="badge bg-orange text-light"><a href="https://hal.science/hal-04342074" target="_BLANK">Access preprint</a></span>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
     <!-- End Outline Section -->
